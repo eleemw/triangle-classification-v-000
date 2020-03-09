@@ -16,7 +16,7 @@ class Triangle
   end
 
   def kind
-    self.sides
+    #self.sides
       if (@sides[0] == @sides[1]) && (@sides[1] == @sides[2])
         :equilateral
       elsif (@sides[0] == @sides[1]) || (@sides[1] == @sides[2])
